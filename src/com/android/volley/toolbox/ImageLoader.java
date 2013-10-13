@@ -48,7 +48,7 @@ public class ImageLoader {
     private int mBatchResponseDelayMs = 100;
 
     /** The cache implementation to be used as an L1 cache before calling into volley. */
-    private final ImageCache mCache;
+    protected final ImageCache mCache;
 
     /**
      * HashMap of Cache keys -> BatchedImageRequest used to track in-flight requests so
